@@ -24,4 +24,5 @@ Route::get('/logout', [AdminController::class, 'logout'])->name('admin.logout');
 
 Route::middleware(['admin_auth'])->group(function () {
     Route::view('/home', 'admin.home')->name('admin.home');
+    Route::view('/add_news', 'admin.news_upload')->name('admin.add_news');
 });

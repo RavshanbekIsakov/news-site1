@@ -35,10 +35,15 @@
 
                 <li class="sidebar-item active">
                     <a class="sidebar-link" href="index.html">
-                        <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Yangiliklar</span>
+                        <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Yangiliklarni tahrirlash va o'chirish</span>
                     </a>
                 </li>
 
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="{{ route('admin.add_news') }}">
+                        <i class="align-middle me-2" data-feather="download"></i> <span class="align-middle">Yangilik qo'shish</span>
+                    </a>
+                </li>
                 <li class="sidebar-item">
                     <a class="sidebar-link" href="pages-profile.html">
                         <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profil</span>
